@@ -12,7 +12,6 @@ body{
 main{
     display: flex;
     flex-direction: column;
-    /* height: 80vh; */
     width: 80%;
     justify-content: center;
     align-items: center;
@@ -66,7 +65,7 @@ main{
     padding: 0 5px;
     cursor: pointer;
 }
-.done{
+.done.active{
     background-color: green;
     color: white;
 }
