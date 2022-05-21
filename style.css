@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    /* height: 80vh; */
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0f7fa;
+}
+.input{
+    margin-bottom: 20px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.input input[type="text"]{
+    font-size: 20px;
+    padding: 2px 5px;
+    width: 90%;
+}
+.input input[type="button"]{
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    border-color: #e0f7fa;
+}
+.input input[type="button"]:hover{
+    color: white;
+    background-color: rgb(182, 182, 254);
+}
+.tasks{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    background-color: rgb(182, 182, 254);
+    padding: 10px;
+    margin-bottom: 20px;
+    min-height: 100px;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+.task ul{
+    display: flex;
+    list-style: none;
+}
+.task ul li{
+    padding: 0 5px;
+    cursor: pointer;
+}
+.done{
+    background-color: green;
+    color: white;
+}
